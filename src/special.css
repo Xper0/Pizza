@@ -1,0 +1,71 @@
+.special-bg{
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background:
+            linear-gradient(rgba(0,0,0,0.1),
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.7)),
+            url("./img/bd.jpeg");
+    height: 785px;
+    box-sizing: border-box;
+}
+
+.spicial-bg-tab{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-start;
+    margin-left: 168px;
+}
+
+.spicial-bg-img{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 22px;
+    width: 556px;
+    height: 200px;
+}
+.spicial-bg-h1{
+    font-size: 38px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 65px;
+    top: 60px;
+
+}
+.spicial-bg-p{
+    position: absolute;
+    font-size: 29px;
+    color: #FFFFFF;
+    left: 210px;
+    bottom: 30px;
+}
+.special-bg-text{
+    width: 606px;
+    height: 213px;
+    margin-left: 78px;
+    margin-right: 104px;
+}
+.special-bg-text-p{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.special-bg-img{
+    position: relative;
+}
+
+.eats{
+    position: absolute;
+    left: 120px;
+    top: -55px;
+}
+
+
+
+

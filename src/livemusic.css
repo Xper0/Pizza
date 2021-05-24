@@ -1,0 +1,79 @@
+.live-bg{
+    background:  linear-gradient(rgba(0,0,0,0.1),
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.4)),
+    url("./img/bd.jpeg");
+    height: 900px;
+    margin-top: 60px;
+
+    position: relative;
+}
+
+.live-bg-content{
+    display: flex;
+    position: relative;
+    margin-left: 162px;
+    padding-top: 62px;
+
+}
+.live-bg-content-table{
+
+
+}
+
+.live-bg-content-table-img{
+    position: relative;
+    width: 493px;
+    height: 314px;
+}
+.live-bg-content-table-h1{
+    font-size: 48px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 85px;
+    top: 40px;
+    font-weight: 900;
+
+}
+
+
+.live-bg-content-table-p{
+    position: absolute;
+    font-size: 39px;
+    color: #FFFFFF;
+    left: 120px;
+    bottom: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.live-bg-content-table-p span{
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: 100;
+
+}
+.live-bg-content-text{
+    width: 606px;
+    height: 213px;
+    margin-left: 78px;
+    margin-right: 147px;
+    margin-top: 131px;
+}
+
+.live-bg-content-text-p{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 34px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    width: 530px;
+
+
+}
+
+.live-bg-img{
+    position: absolute;
+    left: -25px;
+    bottom: -45px;
+}

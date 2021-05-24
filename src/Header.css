@@ -1,0 +1,259 @@
+body{
+    background: #302723;
+}
+.App {
+    text-align: center;
+    background: url("./img/Background@1X.jpeg");
+    /*min-height: 6246px;*/
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 18px;
+}
+.logo{
+    margin-left: 97px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.header-menu{
+    display: flex;
+    outline: 1px solid #E1B838;
+    width: 930px;
+    height: 67px;
+    margin-top: 40px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.header-menu-list{
+    list-style: none;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin-left: -40px;
+
+
+}
+.header-menu-list-link{
+    color: #E1B838;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 60px;
+}
+
+.header-menu-list:hover,
+.header-menu-list-link:hover {
+    background: #E1B838;
+    color: #000000;
+
+
+}
+
+
+
+.slider-conteiner{
+    min-width:auto;
+    position: relative;
+    display: flex;
+    gap: 21px;
+    outline: 2px solid #61dafb;
+
+    overflow: hidden;
+
+}
+.slides{
+    min-width: 1440px;
+    background: linear-gradient(rgba(0,0,0, 0.3),
+    rgba(0,0,0, 0.3),
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.7)),
+    url("./img/bd.jpeg");
+    min-height: 650px;
+    position: relative;
+    transition: 0.5s;
+
+
+}
+
+.slides-item{
+    display: flex;
+}
+.pic1{
+    position: absolute;
+    top: 4%;
+    left: -23%;
+    height: 682px;
+
+
+}
+.pic2{
+    position: absolute;
+    top: 4%;
+    right: -23%;
+    height: 682px;
+
+}
+.picslider1{
+    position: absolute;
+    width: 1480px;
+    height: 356px;
+    top: 0;
+    right: -15px;
+}
+
+.slidertab{
+    background: url("./img/Place Your Design Here (Double Click to Edit)@1X.png");
+    width: 497px;
+    height: 167px;
+    position: absolute;
+    margin-left: 472px;
+    margin-top: 230px;
+}
+.slidertab1{
+    background: url("./img/Place Your Design Here (Double Click to Edit)@1X.png");
+    width: 497px;
+    height: 167px;
+    position: absolute;
+    margin-left: 472px;
+    margin-top: 430px;
+
+
+
+}
+
+.h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+.data{
+    color: #FFFFFF;
+    font-size: 33px;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+
+}
+.slider-conteiner-text{
+    color: #FFFFFF;
+    font-size: 32px;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    width: 639px;
+    margin-top: 85px;
+    margin-left: -65px;
+
+}
+.slider1-conteiner-text{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 32px;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    width: 639px;
+    top: 50%;
+    left: 28%;
+    padding-bottom: 30px;
+
+
+
+
+
+
+}
+.slider-btn{
+    position: absolute;
+    display: block;
+    top: 75%;
+    left: 43%;
+
+
+
+
+
+}
+.fa{
+    /*position: relative;*/
+    cursor: pointer;
+    color: #E1B838;
+    margin: 15px;
+}
+.arrow-left {
+    position: absolute;
+    left: -70px;
+    bottom: -15px;
+}
+.arrow-left:hover,
+.arrow-right:hover,
+.btn-circle:hover {
+   color: #E1B838;
+    transform: scale(1.2);
+}
+.arrow-right {
+    position: absolute;
+
+    bottom: -15px;
+
+}
+
+
+.btn-circle{
+    /*position: relative;*/
+    margin: 15px;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: 3px solid #E1B838;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+
+
+}
+.active{
+    background: #E1B838;
+}
+.btn-circle:hover{
+    background: #E1B838;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.slides-footer{
+    padding-top: 660px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

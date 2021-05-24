@@ -1,0 +1,55 @@
+
+.method-bg{
+    background: linear-gradient(rgba(0,0,0,0.3),
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+
+    url("./img/bd.jpeg");
+    height: 882px;
+    margin-top: 180px;
+    overflow: hidden;
+    display: flex;
+}
+
+.method-bg-meat{
+    position: relative;
+    width: 50%;
+}
+
+.meat{
+    position: absolute;
+    bottom: -50px;
+    left: -28px;
+}
+
+.method-bg-table{
+    position: relative;
+    margin-left: 76px;
+    margin-top: 300px;
+}
+
+.method-bg-table-img{
+    position: relative;
+    width: 585px;
+    min-height: 354px;
+}
+
+.method-bg-table-h1{
+    position: absolute;
+    font-size: 60px;
+    top: -30px;
+    left: 55px;
+
+}
+.method-bg-table-p{
+    width: 470px;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: justify;
+    bottom: 245px;
+    left: 55px;
+}

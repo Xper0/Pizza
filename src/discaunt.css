@@ -1,0 +1,65 @@
+.dis-bg{
+    background: linear-gradient(rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.5)),
+    url("./img/bd.jpeg");
+    height: 709px;
+    display: flex;
+}
+.dis-bg-img{
+    margin-left: 120px;
+}
+/*.active-bg{*/
+/*    opacity: 0.1;*/
+/*    background: linear-gradient(21deg, #000000, #ffffff);*/
+
+/*}*/
+.dis-bg-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-start;
+    margin-left: 40px;
+}
+
+.dis-bg-text-header{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-start;
+
+
+}
+.dis-bg-text-h2{
+    font-size: 50px;
+    color: #E1B838;
+    text-align: end;
+}
+.dis-bg-btn{
+
+    width: 187px;
+    height: 40px;
+    background: #E1B838;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+.dis-bg-logo{
+    margin-top: 160px;
+    margin-left: 30px;
+    width: 156px;
+    height: 98px;
+    cursor: pointer;
+
+}
+.dis-bg-logo-text{
+    font-size: 30px;
+    color: #E1B838;
+    text-align: right;
+}
+
