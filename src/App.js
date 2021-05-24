@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from "./Header";
-import {Menu} from "./menu";
-import {Discaunt} from "./discaunt";
-import Methods from "./method";
-import Livemusic from "./livemusic";
-import Footer from "./footer";
-import Special from "./special";
+import Header from "./component/Header";
+import {Menu} from "./component/menu";
+import {Discaunt} from "./component/discaunt";
+import Methods from "./component/method";
+import Livemusic from "./component/livemusic";
+import Footer from "./component/footer";
+import Special from "./component/special";
 
 
 function App() {

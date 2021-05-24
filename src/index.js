@@ -5,12 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {  Switch } from "react-router";
 import { BrowserRouter, Route} from "react-router-dom";
-import {Menu} from "./menu";
-import {Discaunt} from "./discaunt"
-import Special from "./special";
-import Methods from "./method";
-import Livemusic from "./livemusic";
-import Footer from "./footer";
+import {Menu} from "./component/menu";
+import {Discaunt} from "./component/discaunt"
+import Special from "./component/special";
+import Methods from "./component/method";
+import Livemusic from "./component/livemusic";
+import Footer from "./component/footer";
 
 ReactDOM.render(
     <BrowserRouter>
